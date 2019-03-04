@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'MRCountryPicker'
-s.version          = '0.0.9'
+s.version          = '0.0.10'
 s.summary          = 'Country picker with flags and optional phone numbers for iOS written in Swift.'
 
 s.description      = <<-DESC
@@ -19,7 +19,7 @@ s.swift_version = '4.2'
 
 s.source_files = 'MRCountryPicker/Classes/**/*.{swift}'
 
-s.resource = "MRCountryPicker/MRCountryPicker/SwiftCountryView.xib"
+s.resource = "MRCountryPicker/MRCountryPicker/Classes/SwiftCountryView.xib"
 s.resource_bundle = { 'SwiftCountryPicker' => ['MRCountryPicker/Assets/SwiftCountryPicker.bundle/*'] }
 
 end
